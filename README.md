@@ -5,4 +5,4 @@ Brain-computer interface
 Dynamic Nature - Drone 
 highlight word and paste the link 
 ##Data Deck
-[Template](https://docs.google.com/presentation/d/1UeurUHG-TA8TjQJjdNc7WFDmJ3eR3rcyeKUQ795ChC8/edit#slide=id.g206f8279a60_0_0)https://docs.google.com/presentation/d/1UeurUHG-TA8TjQJjdNc7WFDmJ3eR3rcyeKUQ795ChC8/edit#slide=id.g206f8279a60_0_0
+[Data Slide](https://docs.google.com/presentation/d/1UeurUHG-TA8TjQJjdNc7WFDmJ3eR3rcyeKUQ795ChC8/edit?usp=sharing)https://docs.google.com/presentation/d/1UeurUHG-TA8TjQJjdNc7WFDmJ3eR3rcyeKUQ795ChC8/edit?usp=sharing
