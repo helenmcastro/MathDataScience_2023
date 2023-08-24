@@ -1,1 +1,1 @@
-# MathDataScience_2023
+Take notes
