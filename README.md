@@ -10,6 +10,9 @@
 
 [Data Slide](https://docs.google.com/presentation/d/1UeurUHG-TA8TjQJjdNc7WFDmJ3eR3rcyeKUQ795ChC8/edit?usp=sharing)
 
+# Colab Notebooks 
+[MNIST Dataset](https://colab.research.google.com/drive/1WtFON7n2W0xGnXXf_e8NitDxG8w3yAyP?usp=sharing)
+
 # ChatGPT Study Prompts 
 * *Teach me numpy*
 * *Teach me matplotlib*
