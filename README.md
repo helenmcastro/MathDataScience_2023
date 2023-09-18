@@ -1,17 +1,20 @@
-#DataScience23
-Notes 8/24
+# Data Science 2023
+
+<hr>
+
+<img src="https://www.ntu.edu.sg/images/default-source/hub-programmes/scse/msc_datasc2_web775x465.jpg?sfvrsn=4dba8fec_5"> 
 
 
-<img src="https://www.ntu.edu.sg/images/default-source/hub-programmes/scse/msc_datasc2_web775x465.jpg?sfvrsn=4dba8fec_5">
-
-Brain-computer interface
-
-Dynamic Nature - Drone 
-
-highlight word and paste the link 
-
-
-##Data Deck
+# Data Deck Slides
 
 
 [Data Slide](https://docs.google.com/presentation/d/1UeurUHG-TA8TjQJjdNc7WFDmJ3eR3rcyeKUQ795ChC8/edit?usp=sharing)
+
+# ChatGPT Study Prompts 
+* *Teach me numpy*
+* *Teach me matplotlib*
+* *How do I make a random grayscale image and show it in matplotlib?*
+* *Code to plot y=mx+b in python*
+* *How does indexing work in numpy?*
+
+
