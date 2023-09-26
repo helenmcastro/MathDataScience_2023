@@ -11,7 +11,7 @@
 [Data Slide](https://docs.google.com/presentation/d/1UeurUHG-TA8TjQJjdNc7WFDmJ3eR3rcyeKUQ795ChC8/edit?usp=sharing)
 
 # Colab Notebooks 
-[MNIST Dataset] (https://colab.research.google.com/drive/1f0zmbQixYGh91DaM3TFec4IJjVhPSJJs?usp=sharing)
+[MNIST Dataset](https://colab.research.google.com/drive/1f0zmbQixYGh91DaM3TFec4IJjVhPSJJs?usp=sharing)
 
 # ChatGPT Study Prompts 
 * *Teach me numpy*
