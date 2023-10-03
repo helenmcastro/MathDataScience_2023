@@ -4,6 +4,8 @@
 Notebook:
 https://colab.research.google.com/drive/1rL06nGb7KzOHRIUOcY48LRvAr-wq4IUb?usp=sharing
 
+
+## Importing Libaries 
 ```python
 
 # Import necessary libraries
@@ -25,7 +27,9 @@ def plot(x):
     fig.set_size_inches(7, 7)
     plt.show()
 ```
-In this initial code block, I import the required libraries and define a function called plot for displaying images. The plot function takes an image x as input, converts it to a NumPy array if it's a PyTorch tensor, and then displays the image using Matplotlib.
+In this initial code block, I import the required libraries which include NumPy, Matplotlob, Torch, and Torchvision. I define a function called plot for displaying images. The plot function takes an image x as input, converts it to a NumPy array if it's a PyTorch tensor, and then displays the image using Matplotlib.
+
+## Data Preparation 
 
 ```python
 # Define a function to move data to the GPU
@@ -35,6 +39,8 @@ def GPU(data):
 # Define a function to move data to the GPU without requiring gradients
 def GPU_data(data):
     return torch.tensor(data, requires_grad=False, dtype=torch.float, device=torch.device('cuda'))
+
+
 
 # Load the MNIST dataset
 train_set = datasets.MNIST('./data', train=True, download=True)
@@ -52,7 +58,7 @@ X_test = X_test[:, None, :, :] / 255
 ```
 In this code block, I define two functions, GPU and GPU_data, for moving data to the GPU with and without requiring gradients. I also load the MNIST dataset using torchvision and extract the data and labels, followed by normalizing and reshaping the data.
 
-
+## Visualization 
 ```python
 # Define a function to create and display a montage of images
 def montage_plot(x):
