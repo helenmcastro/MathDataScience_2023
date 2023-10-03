@@ -56,7 +56,7 @@ def montage_plot(x):
 # Display a montage of the first 25 images from the dataset
 montage_plot(X[0:25, 0, :, :])
 ```
-Here, we define the montage_plot function to create and display a montage of images using the montage function from skimage. Then, we use this function to display a montage of the first 25 images from the dataset.
+![Montage](https://github.com/helenmcastro/MathDataScience_2023/blob/main/montage-plot.png?raw=true) Here, we define the montage_plot function to create and display a montage of images using the montage function from skimage. Then, we use this function to display a montage of the first 25 images from the dataset.
 
 ```python
 # Initialize a random linear model
