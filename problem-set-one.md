@@ -74,6 +74,7 @@ y = torch.argmax(y, 0)
 # Calculate accuracy
 accuracy = (torch.sum((y == GPU_data(Y[0:batch_size]))) / batch_size).item()
 print(f"Accuracy of random linear model: {accuracy * 100:.2f}%")
+Accuracy of random linear model: 7.81%
 ```
 In this block, we initialize a random linear model M, perform matrix multiplication for classification, find the predicted labels, and calculate the accuracy of this random linear model.
 
@@ -105,5 +106,7 @@ for i in range(max_iterations):
 
 # Print the best achieved accuracy
 print(f"Best accuracy achieved: {Score_Best * 100:.2f}%")
+Reached the target accuracy of 80.00%
+Best accuracy achieved: 80.00%
 ```
 In this final code block, we initialize variables for tracking the best model and its accuracy. Then, we perform random matrix generation and classification, continuously checking if the current score is better than the best score. If the target accuracy of 80% is reached, it prints a message indicating that. Finally, it prints the best achieved accuracy.
