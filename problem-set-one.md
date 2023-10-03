@@ -1,3 +1,9 @@
+# Problem Set 1
+
+## Code Link
+Notebook:
+https://colab.research.google.com/drive/1rL06nGb7KzOHRIUOcY48LRvAr-wq4IUb?usp=sharing
+
 ```python
 
 # Import necessary libraries
