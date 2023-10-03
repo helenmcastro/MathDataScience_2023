@@ -118,9 +118,10 @@ The predicted class labels are obtained using `torch.argmax`.
 Accuracy is calculated by comparing the predicted labels to the ground truth labels `Y`.
 
 ##  Random models
+```python
 batch_size=64
 
-# Initialize variables for the best model and score
+#Initialize variables for the best model and score
 M_Best = 0
 Score_Best = 0
 
