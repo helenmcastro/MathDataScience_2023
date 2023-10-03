@@ -111,14 +111,13 @@ y = torch.argmax(y, 0)
 
 # Calculate accuracy
 accuracy = torch.sum((y == Y[0:64])) / 64
-accuracy
+tensor(0.0625, device='cuda:0')
 ```
 Matrix multiplication is performed between the model `M` and the input data `x`.
 The predicted class labels are obtained using `torch.argmax`.
 Accuracy is calculated by comparing the predicted labels to the ground truth labels `Y`.
 
 ##  Random models
-```python
 batch_size=64
 
 # Initialize variables for the best model and score
@@ -129,27 +128,26 @@ Score_Best = 0
 for i in range(100000):
     M_new = GPU(np.random.rand(10, 784))
 
-    y = M_new @ x
+    y = M_new@x
 
     y = torch.argmax(y, 0)
 
-    Score = (torch.sum((y == GPU_data(Y[0:batch_size]))) / batch_size).item()
+    Score = (torch.sum((y == Y[0:batch_size]))/batch_size).item()
     if Score > Score_Best:
 
         Score_Best = Score
         M_Best = M_new
 
         print(i,Score_Best)
-0 0.109375
-1 0.125
-4 0.140625
-5 0.171875
-13 0.203125
-20 0.21875
-84 0.25
-472 0.265625
-2923 0.34375
-75396 0.359375
+0 0.03125
+1 0.078125
+4 0.09375
+5 0.234375
+90 0.265625
+4240 0.296875
+18719 0.3125
+50710 0.328125
+58296 0.359375
 ```
 This section initializes variables for tracking the best model `M_Best` and its corresponding score `Score_Best`.
 A loop runs for 100,000 iterations, where random linear models `M_new` are generated. These models are used to make predictions on the subset of data `x`.
@@ -175,7 +173,7 @@ for i in range(100000):
     m = M_best + step * m_random
 
     # Make predictions with the updated model
-    y = m @ X
+    y = m@X
 
     # Find the predicted labels
     y = torch.argmax(y, axis=0)
