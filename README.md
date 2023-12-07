@@ -27,6 +27,11 @@
 * *Code to plot y=mx+b in python*
 * *How does indexing work in numpy?*
 
+# Homework Sets 
+* [Homework 1](https://github.com/helenmcastro/MathDataScience_2023/blob/main/problem-set-one.md)
+* [Homework 2](https://github.com/helenmcastro/MathDataScience_2023/blob/main/problem-set-two.md)
+* [Homework 3](https://github.com/helenmcastro/MathDataScience_2023/blob/main/problem-set-three.md)
+
 # Links
 [Spectrogram](https://musiclab.chromeexperiments.com/spectrogram/)
 
