@@ -19,6 +19,7 @@
 
 # Vino Vigil AI 
 [Vino Vigil](https://github.com/helenmcastro/VinoVigil)
+[Academic Journal](https://github.com/helenmcastro/MathDataScience_2023/blob/main/VinoVigil.pdf)
 
 # ChatGPT Study Prompts 
 * *Teach me numpy*
