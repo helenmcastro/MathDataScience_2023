@@ -13,6 +13,9 @@
 # Colab Notebooks 
 [MNIST Dataset](https://colab.research.google.com/drive/1f0zmbQixYGh91DaM3TFec4IJjVhPSJJs?usp=sharing)
 
+# Vino Vigil AI 
+[Vino Vigil](https://github.com/helenmcastro/VinoVigil)
+
 # ChatGPT Study Prompts 
 * *Teach me numpy*
 * *Teach me matplotlib*
