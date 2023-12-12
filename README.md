@@ -16,6 +16,9 @@
 * [Alexnet](https://colab.research.google.com/drive/1L-8bVJ0-T99Pp5kRNW-InyEWr4Jx9Yqr#scrollTo=_b4zIKeW2pgC)
 * [Pose](https://colab.research.google.com/drive/13TMawPpUDsY0cvz5eWPQUKZtbtOk-2_O#scrollTo=VHmTwACwFW-v)
 
+# Resume 
+* [Helen Castro Resume](https://github.com/helenmcastro/MathDataScience_2023/blob/main/Clean_CV_Template.pdf)
+
 
 # Vino Vigil AI 
 * [Vino Vigil](https://github.com/helenmcastro/VinoVigil)
